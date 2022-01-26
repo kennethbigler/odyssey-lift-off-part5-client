@@ -5,7 +5,7 @@ import Pages from './pages';
 import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'https://odyssey-gql-track-tutorial.herokuapp.com/',
+  uri: 'https://gql-track-tutorial-server.herokuapp.com/',
   cache: new InMemoryCache(),
 });
 
